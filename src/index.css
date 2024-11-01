@@ -1,0 +1,24 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: lime;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive; /* Pixelated font */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

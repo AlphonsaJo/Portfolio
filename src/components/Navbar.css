@@ -1,0 +1,63 @@
+.navbar {
+  background-image: radial-gradient(circle, #130c6d, #17034e);
+  padding: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+  position: relative; /* Allows for positioning of the pseudo-elements */
+}
+
+.navbar h1 {
+  font-size: 2em;
+  color: #f3f3f7;
+  text-align: center; /* Centers the title */
+  margin: 0; /* Removes default margin */
+  letter-spacing: 1px; /* Adds spacing for a more elegant look */
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Increased spacing for better separation */
+  list-style-type: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.navbar ul li {
+  position: relative; /* For pseudo-element positioning */
+  padding: 10px; /* Adds padding for click area */
+  font-size: 1.1em; /* Slightly larger font size */
+  color: #f3f3f7; /* Initial color for links */
+  transition: color 0.3s, transform 0.3s; /* Smooth color and scale transitions */
+  cursor: pointer; /* Changes cursor to pointer */
+}
+
+.navbar ul li:hover {
+  color: #ff4081; /* Color on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Adding a hover effect with a pseudo-element */
+.navbar ul li::after {
+  content: '';
+  display: block;
+  height: 2px; /* Height of the underline */
+  background: #ff4081; /* Underline color */
+  transition: width 0.3s; /* Smooth width transition */
+  width: 0; /* Initial width */
+  position: absolute; /* Positioned relative to the li */
+  left: 50%; /* Center the line */
+  bottom: -5px; /* Position below the text */
+  transform: translateX(-50%); /* Adjust to center */
+}
+
+.navbar ul li:hover::after {
+  width: 100%; /* Full width on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 15px; /* Reduced gap */
+  }
+}

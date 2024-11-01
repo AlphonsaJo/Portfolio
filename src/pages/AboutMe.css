@@ -1,0 +1,42 @@
+.about-me {
+    background-color: rgb(198, 191, 214); /* Dark background for About Me */
+    color: #fafafa;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-me .content-container {
+    margin-bottom: 24px;
+    text-align: center;
+    color: black;
+  }
+  
+  .about-me .title {
+    color: #4243a8; /* Light yellow for the About Me title */
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-bottom: 16px;
+  }
+  
+  .about-me .description {
+    color: #e0e0e0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  .leetcode-stats-container {
+    margin-top: 20px;
+  }
+
+  .description {
+    text-align: justify; /* Justifies the text */
+    line-height: 1.6; /* Increases line height for better readability */
+    margin: 0; /* Removes default margin */
+    padding: 10px; /* Optional: adds padding for spacing */
+}
+
+  

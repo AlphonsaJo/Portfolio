@@ -1,0 +1,40 @@
+/* Home.css */
+.home {
+    padding: 2em;
+    text-align: center;
+    background-image: url('avatar.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .hero-section {
+    padding: 4em 2em;
+    
+  }
+  
+  .hero-title {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    color: #c242e2;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff4081;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8em 1.5em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e5005c;
+  }

@@ -1,0 +1,62 @@
+.leetcode-stats {
+  background-color: #000; /* Black background for the container */
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.leetcode-stats h2 {
+  color: #fafafa;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around; /* Space out cards horizontally */
+  gap: 15px;
+  overflow-x: auto; /* Allows horizontal scrolling if there are many cards */
+  padding: 10px 0;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 160px;
+  max-width: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* Text color for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.stat-item:hover {
+  transform: scale(1.05);
+}
+
+/* Different background colors for each card */
+.stat-item:nth-child(1) { background-color: #ff6b6b; } /* Red */
+.stat-item:nth-child(2) { background-color: #feca57; } /* Yellow */
+.stat-item:nth-child(3) { background-color: #1dd1a1; } /* Green */
+.stat-item:nth-child(4) { background-color: #54a0ff; } /* Blue */
+.stat-item:nth-child(5) { background-color: #ff9ff3; } /* Pink */
+.stat-item:nth-child(6) { background-color: #5f27cd; } /* Purple */
+
+.stat-item strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.stat-item span {
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 500;
+}

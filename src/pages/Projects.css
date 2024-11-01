@@ -1,0 +1,43 @@
+.projects {
+  padding: 20px;
+  background-image: url('avatar.jpg');
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.project-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 550px; /* Increase the width to accommodate longer text */
+  transition: box-shadow 0.3s;
+  text-align: justify; /* Align the text to be justified */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center; /* Center-align the heading */
+}
+
+.project-item p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: justify; /* Justify the paragraph text */
+}
+
+.project-link {
+  color: #5a4fcf;
+  text-decoration: underline;
+}
