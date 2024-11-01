@@ -1,11 +1,9 @@
-# Portfolio  Using React
+# Portfolio Using React
 
 ![image](https://github.com/user-attachments/assets/c28fcfd3-8752-4a50-ab36-cec805cc5cb3)
 
 
-# My Portfolio Website
-
-This site showcases my journey as a passionate Computer Science Engineering.
+This site showcases my journey as an inquisitive and aspiring Computer Science Engineer.
 
 ## Features
 
